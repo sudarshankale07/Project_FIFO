@@ -9,3 +9,6 @@ Configurable via parameters
 Reusable across projects
 Scalable in width and depth
 Industry-standard practice in professional RTL design
+
+implemented a lightweight UVM-based testbench for the synchronous FIFO. 
+The testbench uses a UVM test class to generate directed write and read transactions, connected to the DUT via a virtual interface
